@@ -1,0 +1,27 @@
+.Header {
+  background-color: darkviolet;
+  padding: 10px;
+}
+
+.Header ul {
+    list-style-type: none;
+    margin: 0 0 0 50px ;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+  }
+
+  .Header li {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .Header li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .Header li a.active{
+    color:  black;
+  }

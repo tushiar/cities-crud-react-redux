@@ -1,0 +1,24 @@
+
+.FormControl {
+    display: flex;
+    margin: 20px 0;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.FormControl input {
+    width: 90%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.FormControl select {
+    width: 90%;
+    padding: 12px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
